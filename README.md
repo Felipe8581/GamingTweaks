@@ -278,15 +278,14 @@ All tools necessary: <br/>
 ##   NVIDIA settings
 
 **Uninstall current driver with DisplayDriverUninstaller(DDU)** <br/>
-**You should download and use my pre-debloated drivers**
-
-Use NVSlimmer and download and install a clean nvidia driver, good options list: 391.35 / 441.41 / 442.74<br/>
+**Use NVSlimmer and download and install a clean nvidia driver**
+Good options list: 391.35 / 441.41 / 442.74<br/>
 The Inspector profile SHOULD be better with 441.41 and up.
 
 Here is a list of usefull and advanced nvidiaInspector profiles: <br/>
-FPS focused [Dato_Profile.nip](https://drive.google.com/file/d/1ZsDTTv2JnyEx8KBUxoicTbmJ-SnsEREr/view?usp=sharing)
-Gaming feel focused [Riot_Profile.nip](https://drive.google.com/file/d/1m6Sk99b2xkpAuC8Kfmj4NLOVVNTg1V-r/view?usp=sharing)
-Latency focused (might lower fps) [Melody_Profile.nip](https://drive.google.com/file/d/1YIEFnNA0mGQtsJFJur0dUROFXGtSRrwc/view?usp=sharing)
+FPS focused [Dato_Profile.nip](https://drive.google.com/file/d/1ZsDTTv2JnyEx8KBUxoicTbmJ-SnsEREr/view?usp=sharing) <br/>
+Gaming feel focused [Riot_Profile.nip](https://drive.google.com/file/d/1m6Sk99b2xkpAuC8Kfmj4NLOVVNTg1V-r/view?usp=sharing) <br/>
+Latency focused (might lower fps) [Melody_Profile.nip](https://drive.google.com/file/d/1YIEFnNA0mGQtsJFJur0dUROFXGtSRrwc/view?usp=sharing) <br/>
 FPS/Gaming feel focused [FelipeCopyPastaEdited_Profile.nip](soon)
 
 New GPU commands that i'm testing, gathered the most from Melody's and/or maybe Λdam, whatever<br/>
