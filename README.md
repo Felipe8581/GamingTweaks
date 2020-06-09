@@ -278,7 +278,7 @@ All tools necessary: <br/>
 ##   NVIDIA settings
 
 **Uninstall current driver with DisplayDriverUninstaller(DDU)** <br/>
-**Use NVSlimmer and download and install a clean nvidia driver**
+**Use NVSlimmer and download and install a clean nvidia driver** <br/>
 Good options list: 391.35 / 441.41 / 442.74<br/>
 The Inspector profile SHOULD be better with 441.41 and up.
 
