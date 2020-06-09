@@ -16,12 +16,12 @@ This is heavily inspired by *RevisionOS* discord and Calypto's Guide, and now fr
  - [**Affinity Policy Tool**](#affinity-policy-tool)
  - [**Process Scheduling**](#process-scheduling)
  - [**Power Options**](#power-options)
- - [**Device Clean Up Tool**](#device-clean-up-tool)
- - [**Services**](#services)
  - [**BIOS**](#bios)
+ - [**NVIDIA settings**](#nvidia-settings)
+ - [**Melody Ultra Tweaks Pack**](#melody-ultra-tweaks-pack)
  - [Overclocks](#overclocks)
- - [Melody Ultra Tweaks Pack](#melody-ultra-tweaks-pack)
- - [NVIDIA settings](#nvidia-settings)
+ - [Services](#services)
+ - [Device Clean Up Tool](#device-clean-up-tool)
  - [KMS activator](#kms-activator)
  - [Useful links](#useful-links)
 
@@ -125,7 +125,7 @@ If you see stutterings, you need to figure out better settings.
 MSI is Message Signaled-Based Interrupts, a faster and better method that replaces Windows Line-Based interrupt mode. <br/>
 Some drivers default to using legacy pin-triggered interrupts, which are now emulated and are slower than using MSI.
 
-**For this, now im giving the file that is part of Melodys Pack, named machinespecific.exe** <br/>
+**For this, now im giving the file that is part of Melodys Pack and/or maybe Λdam, whatever, named machine_specific.exe** <br/>
 
 **It will tune your devices with msi on high plus making the whole system prioritys on them as homogeneous as possible** <br/>
 
@@ -137,7 +137,7 @@ Some drivers default to using legacy pin-triggered interrupts, which are now emu
 
 ## Affinity Policy Tool
 
-My new approach to this tool is what Melody does in his pack too,<br/>
+My new approach to this tool is what Melody and/or maybe Λdam, whatever does,<br/>
 For more homogeneous system, the devices will be tuned with SpreadAllCores<br/>
 If you use machine_specific.exe you dont need to tune Affinity anymore<br/>
 
@@ -283,12 +283,13 @@ All tools necessary: <br/>
 Use NVSlimmer and download and install a clean nvidia driver, good options list: 391.35 / 441.41 / 442.74<br/>
 The Inspector profile SHOULD be better with 441.41 and up.
 
-![MSI](/img/scaling.png)
+Here is a list of usefull and advanced nvidiaInspector profiles: <br/>
+FPS focused [Dato_Profile.nip](https://drive.google.com/file/d/1ZsDTTv2JnyEx8KBUxoicTbmJ-SnsEREr/view?usp=sharing)
+Gaming feel focused [Riot_Profile.nip](https://drive.google.com/file/d/1m6Sk99b2xkpAuC8Kfmj4NLOVVNTg1V-r/view?usp=sharing)
+Latency focused (might lower fps) [Melody_Profile.nip](https://drive.google.com/file/d/1YIEFnNA0mGQtsJFJur0dUROFXGtSRrwc/view?usp=sharing)
+FPS/Gaming feel focused [FelipeCopyPastaEdited_Profile.nip](soon)
 
-Use Nvidia Inspector with this profile, that i got the most from Riot(who might get the most by melody):<br/>
-[Download Inspector rakz Profile.nip](https://drive.google.com/file/d/1kS_7yzqAc2cCY3kirxix-y9xcFIOi2xK/view?usp=sharing)
-
-New GPU commands that i'm testing, gathered the most from Melody's<br/>
+New GPU commands that i'm testing, gathered the most from Melody's and/or maybe Λdam, whatever<br/>
 [Download newgputesting.bat](https://drive.google.com/file/d/12SucHGLV3yvnmkFppFz0haMQUTannJaO/view?usp=sharing)
 
 ##   KMS activator
