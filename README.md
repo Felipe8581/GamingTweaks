@@ -28,16 +28,13 @@ This is heavily inspired by *RevisionOS* discord and Calypto's Guide.<br/>
 ## Custom ISOs
 This is such a important move, will make `50%` of work done. Choose your ISO wisely. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust those ISO community creators because they have much experience.
 
-[**Windows 7** by EvolveOS 4.0.iso](https://drive.google.com/file/d/1ufV_hS9_KhgBsK78K2p9Vwc-zedVi53Z/view?usp=sharing) <br/>
+[**Windows 7** by AmendOS 3.0.iso](https://mega.nz/#!AXZ1AIbA!o6NWq1OZkw8-b_ur9nguM-YlfkaDndTDge8BzTQLDaY) <br/>
 [*Learn more about them in Evolve discord*](https://discordapp.com/invite/bkXwSNJ)<br/>
 
 [**Windows 8.1** by UnifyOS 1.5.iso](https://sites.google.com/view/meetrevision/unifyos/download) <br/>
 [*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)
 
-[**Windows 10 1709** by Revision U3.5.iso](https://sites.google.com/view/meetrevision/revios/download) <br/>
-[*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)
-
-[**Windows 10 2004** by Revision BETA.iso](https://drive.google.com/open?id=10WuiJOGlN7qgvo0RBprn2wJYrUkJ_Tb0) <br/>
+[**Windows 10 2004** by Revision U1.0.iso](https://mega.nz/file/cLgRjZpQ#s_y9pHyaQm7-xMM8WjlkDNWKz1edUIUXGKPRHoiBBCo) <br/>
 [*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)
 
 **Note:** Installing them in MBR or GPT might give you different feels ingame. Experiment between those two options<br/>
@@ -88,8 +85,8 @@ Open command promt and paste: <br/>
 **You can optionally use my settings, but i would love you to understand and try out what i just writed.**
 
 `bcdedit /set allowedinmemorysettings 0` <br/>
-`bcdedit /set useplatformclock No` <br/>
-`bcdedit /set useplatformtick No` <br/>
+`bcdedit /deletevalue useplatformclock` <br/>
+`bcdedit /set useplatformtick Yes` <br/>
 `bcdedit /set tscsyncpolicy Enhanced` <br/>
 `bcdedit /set debug No` <br/>
 `bcdedit /set isolatedcontext No` <br/>
@@ -132,7 +129,7 @@ Some drivers default to using legacy pin-triggered interrupts, which are now emu
 
 **It will tune your devices with msi on high plus making the whole system prioritys on them as homogeneous as possible** <br/>
 
-**If you want to use only msi mode utility you can set all msi, all high and limit 256** <br/>
+**If you want to use only msi mode utility you can set all msi, all high/normal and limit 256** <br/>
 
 [Download machine_specific.exe](https://drive.google.com/file/d/1UV3yRT2G9YhTwzWMDbppDGsidNrvi9BR/view?usp=sharing) <br/>
 [Download MSI-mode utility v2](http://www.mediafire.com/file/2kkkvko7e75opce/MSI_util_v2.zip/file) <br/>
@@ -187,13 +184,12 @@ But seems like those values are the ones people like more: 42, 37, 26, 22, 16 <b
 ##  Power Options
 
 What it does: Disable wake timers, USB Suspend setting, Controls CPU Idle, Disable Power Savings, Unpark cores and more. <br/>
-I got the majority of this pow from Revision Extreme Performance. But i disable idle and more.
 
-Open command promt and type: <br/>
-powercfg -import C:/rakz.pow <br/>
-Open Power Options and select rakz <br/>
+Drop the file in C:/, Open command promt and type: <br/>
+powercfg -import C:/RevisionPowerPlanV2.8.pow <br/>
+Open Power Options and select RevisionPowerPlanV2.8 <br/>
 
-[Download rakz.pow](https://drive.google.com/file/d/1XPphvNGnY2jd1Pf8hoXy2wbRPGWTjc7r/view?usp=sharing)
+[Download RevisionPowerPlanV2.8.pow](https://drive.google.com/file/d/1OvMwK7XD_e93hkGoyuQV-WuHsylvZgUf/view?usp=sharing)
 
 Enable idle: (less responsive, lowers temperature)<br/>
 powercfg -setacvalueindex scheme_current sub_processor 5d76a2ca-e8c0-402f-a133-2158492d58ad 0<br/>
