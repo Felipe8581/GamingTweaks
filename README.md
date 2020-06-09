@@ -28,14 +28,13 @@ This is heavily inspired by *RevisionOS* discord and Calypto's Guide, and now fr
 ## Custom ISOs
 This is such a important move, will make `50%` of work done. Choose your ISO wisely. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust those ISO community creators because they have much experience.
 
+*Learn more about them in Revision discord*(https://discordapp.com/invite/CCxWegZ)
+
 [**Windows 7** by AmendOS 3.0.iso](https://mega.nz/#!AXZ1AIbA!o6NWq1OZkw8-b_ur9nguM-YlfkaDndTDge8BzTQLDaY) <br/>
-[*Learn more about them in Evolve discord*](https://discordapp.com/invite/bkXwSNJ)<br/>
 
 [**Windows 8.1** by UnifyOS 1.5.iso](https://sites.google.com/view/meetrevision/unifyos/download) <br/>
-[*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)
 
 [**Windows 10 2004** by Revision U1.0.iso](https://mega.nz/file/cLgRjZpQ#s_y9pHyaQm7-xMM8WjlkDNWKz1edUIUXGKPRHoiBBCo) <br/>
-[*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)
 
 **Note:** Installing them in MBR or GPT might give you different feels ingame. Experiment between those two options<br/>
 DWM (Desktop Window Manager) is prooved to be bad in every scenario, you should remove it in any win version. <br/>
