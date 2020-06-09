@@ -38,7 +38,8 @@ This is such a important move, will make `50%` of work done. Choose your ISO wis
 
 **Note:** Installing them in MBR or GPT might give you different feels ingame. Experiment between those two options<br/>
 DWM (Desktop Window Manager) is prooved to be bad in every scenario, you should remove it in any win version. <br/>
-Windows 7 is by far the best for performance, but you can wisely pick, experiment and tweak newer versions as well.<br/>
+Windows 7 is by far the best for gaming, but you can wisely pick, experiment and tweak newer versions as well.<br/>
+Update: 2004 version is becaming a good one tough, and works with Melody Ultra Tweaks
 
 ## Windows Timers
 
