@@ -20,7 +20,7 @@ This is heavily inspired by *RevisionOS* discord and Calypto's Guide.<br/>
  - [**Services**](#services)
  - [**BIOS**](#bios)
  - [Overclocks](#overclocks)
- - [Compilation of Bat Tweaks](#bat-tweaks)
+ - [Melody Pack and others](#packs)
  - [NVIDIA settings](#nvidia-settings)
  - [KMS activator](#kms-activator)
  - [Useful links](#useful-links)
@@ -46,7 +46,8 @@ Windows 7 is by far the best for performance, but you can wisely pick, experimen
 
 ## Windows Timers
 
-Windows timers are a complex topic. There are different types and results may vary. <br/>
+Windows timers are a complex topic. There are different types and results may vary.<br/>
+But the best scenario is to not use syntetic timers. <br/>
 To undo a command in bcdedit, do bcdedit /deletevalue X (where X is useplatformclock, x2apicpolicy, etc.)
 
 bcdedit /set disabledynamictick yes (Windows 8+) <br/>
@@ -75,6 +76,7 @@ Some motherboards have no option to disable HPET, if you are advanced there is c
 **Install SetTimerResolutionService**
 
 This service increases the resolution of the Windows kernel timer, which will significantly lower latency.<br/>
+Observation: Is not good to use TimerResolution when you disable HPET on BIOS.<br/>
 Drop this file in C:/ folder, the file must be there to service work <br/>
 Open command promt and paste: <br/>
 
@@ -85,25 +87,38 @@ Open command promt and paste: <br/>
 
 **You can optionally use my settings, but i would love you to understand and try out what i just writed.**
 
-`bcdedit /set useplatformclock no` <br/>
-`bcdedit /set useplatformtick yes` <br/>
-`bcdedit /set disabledynamictick yes` <br/>
-`bcdedit /set nointegritychecks yes` <br/>
-`bcdedit /set bootmenupolicy legacy` <br/>
-`bcdedit /set bootux disabled` <br/>
-`bcdedit /set hypervisorlaunchtype off` <br/>
-`bcdedit /set nx optout` <br/>
-`bcdedit /set quietboot yes` <br/>
-`bcdedit /set tpmbootentropy default` <br/>
-`bcdedit /set {globalsettings} custom:16000067 true` <br/>
-`bcdedit /set {globalsettings} custom:16000068 true` <br/>
-`bcdedit /set {globalsettings} custom:16000069 true` <br/>
-`bcdedit /timeout 3` <br/>
-`bcdedit /set uselegacyapicmode no` <br/>
-`bcdedit /set usefirmwarepcisettings yes` <br/>
-`bcdedit /set tscsyncpolicy legacy` <br/>
-`bcdedit /set x2apicpolicy enable` <br/>
-`add reg HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Reliability /v TimeStampInterval /t reg_dword /d 0 /f`
+`bcdedit /set allowedinmemorysettings 0` <br/>
+`bcdedit /set useplatformclock No` <br/>
+`bcdedit /set useplatformtick No` <br/>
+`bcdedit /set tscsyncpolicy Enhanced` <br/>
+`bcdedit /set debug No` <br/>
+`bcdedit /set isolatedcontext No` <br/>
+`bcdedit /set pae ForceEnable` <br/>
+`bcdedit /set bootmenupolicy Legacy` <br/>
+`bcdedit /set usefirmwarepcisettings No` <br/>
+`bcdedit /set sos Yes` <br/>
+`bcdedit /set disabledynamictick Yes` <br/>
+`bcdedit /set disableelamdrivers Yes` <br/>
+`bcdedit /set quietboot Yes` <br/>
+`bcdedit /set x2apicpolicy Enable` <br/>
+`bcdedit /set vsmlaunchtype Off` <br/>
+`bcdedit /set usephysicaldestination No` <br/>
+`bcdedit /set ems No` <br/>
+`bcdedit /set firstmegabytepolicy UseAll` <br/>
+`bcdedit /set configaccesspolicy Default` <br/>
+`bcdedit /set linearaddress57 optin` <br/>
+`bcdedit /set noumex Yes` <br/>
+`bcdedit /set bootems No` <br/>
+`bcdedit /set graphicsmodedisabled No` <br/>
+`bcdedit /set extendedinput Yes` <br/>
+`bcdedit /set highestmode Yes` <br/>
+`bcdedit /set forcefipscrypto No` <br/>
+`bcdedit /set perfmem 0` <br/>
+`bcdedit /set configflags 0` <br/>
+`bcdedit /set uselegacyapicmode No` <br/>
+`bcdedit /set onecpu No` <br/>
+`bcdedit /set halbreakpoint No` <br/>
+`bcdedit /set forcelegacyplatform No` <br/>
 
 This is my current settings and with HPET BIOS OFF <br/>
 If you see stutterings, you need to figure out better settings.
@@ -113,27 +128,23 @@ If you see stutterings, you need to figure out better settings.
 MSI is Message Signaled-Based Interrupts, a faster and better method that replaces Windows Line-Based interrupt mode. <br/>
 Some drivers default to using legacy pin-triggered interrupts, which are now emulated and are slower than using MSI.
 
-**Only set sata if you have sure its compatible, if you set it wrong you will BSOD** <br/>
+**For this, now im giving the file that is part of Melodys Pack, named machinespecific.exe** <br/>
 
-![MSI](/img/msi1.png)<br/>
+**It will tune your devices with msi on high plus making the whole system prioritys on them as homogeneous as possible** <br/>
 
-Changing the values of PCI ISA Bridge and PCI CPU Host with the Interrupt Affinity Policy tool will make them appear in the list if you want. Simple set and unset affinities, most of the time messing with this should be minimal changes for best results.
+**If you want to use only msi mode utility you can set all msi, all high and limit 256** <br/>
 
+[Download machine_specific.exe](https://drive.google.com/file/d/1UV3yRT2G9YhTwzWMDbppDGsidNrvi9BR/view?usp=sharing) <br/>
 [Download MSI-mode utility v2](http://www.mediafire.com/file/2kkkvko7e75opce/MSI_util_v2.zip/file) <br/>
 [*Read more Windows Line Based vs MSI Based.*](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 
 ## Affinity Policy Tool
 
-This tool sets affinity for a driver’s interrupts, <br/>
-Using only one CPU affinity for usb and gpu can yield improvements in performance and responsiveness
+My new approach to this tool is what Melody does in his pack too,<br/>
+For more homogeneous system, the devices will be tuned with SpreadAllCores<br/>
+If you use machine_specific.exe you dont need to tune Affinity anymore<br/>
 
-**Mouse device and correspondent USB controler/hub to one single CPU (I use CPU1)** <br/>
-**GPU and correspondent PCI to a different one single CPU (I use CPU3)**
-
-![AFF](/img/affy.png)<br/>
-
-![AFF](/img/affy2.png)<br/>
-
+[Download machine_specific.exe](https://drive.google.com/file/d/1UV3yRT2G9YhTwzWMDbppDGsidNrvi9BR/view?usp=sharing) <br/>
 [Download Affinity Policy Tool](https://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
 
 ##  Process Scheduling
@@ -176,14 +187,20 @@ But seems like those values are the ones people like more: 42, 37, 26, 22, 16 <b
 ##  Power Options
 
 What it does: Disable wake timers, USB Suspend setting, Controls CPU Idle, Disable Power Savings, Unpark cores and more. <br/>
+I got the majority of this pow from Revision Extreme Performance. But i disable idle and more.
 
 Open command promt and type: <br/>
-powercfg -import C:/2.7.pow <br/>
-Open Power Options and select Revision <br/>
+powercfg -import C:/rakz.pow <br/>
+Open Power Options and select rakz <br/>
 
-[Download Revision 2.7 power plan.pow](files/2.7.pow)
+[Download rakz.pow](https://drive.google.com/file/d/1XPphvNGnY2jd1Pf8hoXy2wbRPGWTjc7r/view?usp=sharing)
 
-[**IF AMD RYZEN**](files/1usmus%20Ryzen%20Universal%20Power%20Plan.pow)
+Enable idle: (less responsive, lowers temperature)<br/>
+powercfg -setacvalueindex scheme_current sub_processor 5d76a2ca-e8c0-402f-a133-2158492d58ad 0<br/>
+powercfg -setactive scheme_current<br/>
+Disable idle: (more responsive, raises temperature)<br/>
+powercfg -setacvalueindex scheme_current sub_processor 5d76a2ca-e8c0-402f-a133-2158492d58ad 1<br/>
+powercfg -setactive scheme_current
 
 
 ###  Device Clean Up Tool
@@ -196,15 +213,7 @@ This is a usefull utility to remove detached/ghost devices, very safe to do.
 
 ##   Services
 
-Listen, use regedit, remove the necessary dependencys
-
-Windows 7 REWORKED SOON <br/>
-
-FINAL STAGE OF SERVICES WINDOWS 8.1 UNIFYOS
-![MSI](/img/win8serv.png)
-
-FINAL STAGE OF SERVICES WINDOWS 10 2004 REVISION BETA
-![MSI](/img/win10serv.png)<br/>
+Listen, use regedit/serviwin, remove the necessary dependencys
 
 ##   BIOS
 
@@ -270,28 +279,18 @@ All tools necessary: <br/>
 [Download OCCT 5.4.2](https://www.ocbase.com/download.php) <br/>
 [Download MEMTest64](https://drive.google.com/file/d/12ga7LsEogbp8yQIUhPKRHTmxNh8fFS5s/view?usp=sharing)
 
-##   Bat Tweaks
-
-**Note:** I would love you to read the file first before using it, its open-source and easy to check what he will do.<br/>
-It contains: Network and adapter tweaks, memory tweaks, gpu tweaks, and misc stuff <br/>
-**Works for all Windows Versions:**
-
-[Download Reg Tweaks.reg](files/regtweaks.reg)
-
 ##   NVIDIA settings
 
 **Uninstall current driver with DisplayDriverUninstaller(DDU)** <br/>
 **You should download and use my pre-debloated drivers**
 
-[Download NVIDIA 445.75 win7 or win8.exe](https://drive.google.com/file/d/1x7iKKDHsbVYNSQBXjk0_B7Uv1bvXybT9/view?usp=sharing) <br/>
-[Download NVIDIA 445.75 win10.exe](https://drive.google.com/file/d/1gpleqn8IkMavGJyNQOIuCRgeEAqyg1Lk/view?usp=sharing) 
-
-USE DATO BASE PROFILE SETTINGS
+Use NVSlimmer and download and install a clean nvidia driver, good options list: 391.35 / 441.41 / 442.74<br/>
+The Inspector profile SHOULD be better with 441.41 and up.
 
 ![MSI](/img/scaling.png)
 
-Adittionally you can use Nvidia Inspector with this profile:<br/>
-[Download Inspector Dato Base Profile.nip](files/Dato_Profile.nip) 
+Use Nvidia Inspector with this profile, that i got the most from Riot(who might get the most by melody):<br/>
+[Download Inspector rakz Profile.nip](https://drive.google.com/file/d/1kS_7yzqAc2cCY3kirxix-y9xcFIOi2xK/view?usp=sharing) 
 
 ##   KMS activator
 
@@ -304,19 +303,21 @@ Adittionally you can use Nvidia Inspector with this profile:<br/>
 [*Calypto discord*](https://discord.gg/PfsdHaP) </br>
 [*Fr33thy discord*](https://discord.gg/pTc37y7) </br>
 [*n1kobg discord*](https://discord.gg/8KSHTZ3) </br>
-[*EvolveOS discord*](https://discord.gg/KXYyq4B) </br>
+[*Melody Pack Discord*](https://discord.gg/7n5EGQ) </br>
 [*The-Eye.eu*](https://the-eye.eu/public/MSDN/) </br>
 [*PrivacyTools.io*](https://www.privacytools.io) </br>
 [*CHEF-KOCH github*](https://github.com/CHEF-KOCH) </br>
 [*KMS_VL_ALL github*](https://github.com/kkkgo/KMS_VL_ALL)
 
 **Guides** </br>
+
 [*Revision BIOS Tweaking Guide*](https://docs.google.com/document/d/1-izZaWrXaKIncYXDwmdY32YwdGCU5mDLJE6TW1Opnv8/edit) </br>
 [*Hydro Device Manager Guide*](https://docs.google.com/document/d/1y9PG71osCksYZSZ2I-z4WpqMOVUu5Q4fFH0TOC29MCs/edit) </br>
 [*Hydro Affinity Guide*](https://docs.google.com/document/d/1Xf7gqGE7m7aXjT1ncdoQBY1EFYroelqoKIY3UY8jVfE/edit) </br>
 [*Hydro NVIDIA Panel Guide*](https://docs.google.com/document/d/1ME6wVOyB3ZIDlQFzMLNu3IrKYw8heX2rz5lA7hHmRkw/edit) </br>
 [*Hydro Stripping NVIDIA Driver Guide*](https://docs.google.com/document/d/1Wm2EbUdG_qFODvS6kArCajBSzDZEvcVqSRu9bzr4KDw/edit) </br>
 [*Calypto Tweak Guide*](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit?usp=sharing) </br>
+[*Melody Ultra Tweaks Pack*](https://sites.google.com/view/melodystweaks/) </br>
 [*Fr33thy Youtube*](https://www.youtube.com/user/chrisfreeth/videos) </br>
 [*n1kobg.blogspot.com*](http://n1kobg.blogspot.com/) </br>
 [*Bunny Guides*](https://sites.google.com/view/winshit/overview)
@@ -341,8 +342,6 @@ Adittionally you can use Nvidia Inspector with this profile:<br/>
 [*Power Run*](https://www.sordum.org/downloads/?power-run) </br>
 [*DNSBenchmark*](https://www.grc.com/dns/benchmark.htm) <br/>
 [*Autoruns*](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) <br/>
-[*CPU-Z + GPU-Z + HWINFO*](files/Tools.7z) </br>
-[*MSI-Mode v2 + Affinity Policy Tool*](files/Tweaks.7z)
 
 **Game Configs** </br>
 [*Quake Live Config*](files/fe.7z) </br>
