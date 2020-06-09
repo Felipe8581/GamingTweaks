@@ -303,7 +303,7 @@ New GPU commands that i'm testing, gathered the most from Melody's<br/>
 
 **Listen before using his website/pack:
 
-Melody seens to be very very smart, but the nature of the tweaks COULD possibly be to advanced<br/>
+Melody seens to be very very smart, but the nature of the tweaks COULD possibly be too advanced<br/>
 So please try to do what i always say >> Its opensource, open, take a look, see what it does, study, them use what you think is right.<br/>
 It is also recommended to not use in stripped isos(edited ones, like the Revision isos i recommend)<br/>
 But, it worked well here. It might be good, take a look. but this is OPTIONAL.<br/>
