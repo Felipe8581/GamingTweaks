@@ -1,6 +1,6 @@
 # Felipe#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
 A collection of cool hidden and not so hidden tweaks <br/>
-This is heavily inspired by *RevisionOS* discord and Calypto's Guide.<br/>
+This is heavily inspired by *RevisionOS* discord and Calypto's Guide, and now from Melody's<br/>
 
 *Shortlink: [`https://git.io/JvfJ6`](https://git.io/JvfJ6)*
 
@@ -209,7 +209,7 @@ This is a usefull utility to remove detached/ghost devices, very safe to do.
 
 ##   Services
 
-Listen, use regedit/serviwin, remove the necessary dependencys
+You should learn what services to disable, use regedit/serviwin, remove the necessary dependencys
 
 ##   BIOS
 
