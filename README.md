@@ -56,7 +56,7 @@ Potentially better performance, lowers timer resolution to .488 instead of .5ms
 
 **Time Stamp Counter** (TSC) (default) (bcdedit /set useplatformclock false) <br/>
 
-TSC is reliable and will give you the lowest latency and highest fps, but not sure if best mouse feeling<br/>
+TSC is reliable and will give you the lowest latency and highest fps<br/>
 
 **ACPI Power Management Timer** (PMT) (bcdedit /set useplatformclock true + HPET BIOS OFF) <br/>
 
@@ -171,7 +171,7 @@ So the one for smoothness(as he writes), would also be the best for input, on th
 
 ![w](/img/w32.png)
 
-**Try to understand the values, try to test the values, choose your desired value.**<br/>
+**Try to understand the values, try to test the values, choose your desired value. 22dec is a good default**<br/>
 I will no more recommend a single value, i can barely feel difference, tests in latency barely prove anything.<br/>
 But seems like those values are the ones people like more: 42, 37, 26, 22, 16 <br/>
 
@@ -293,6 +293,7 @@ New GPU commands that i'm testing, gathered the most from Melody's and/or maybe 
 
 ##   KMS activator
 
+You can buy a cheap key in ebay tough, which is legal, who is selling those cheap keys are MSDN Admins <br/>
 [KMS_VL_ALL_AIO.cmd](files/KMS_VL_ALL_AIO.cmd)
 
 ##   Melody Ultra Tweaks Packs
