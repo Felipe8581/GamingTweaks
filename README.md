@@ -290,11 +290,26 @@ The Inspector profile SHOULD be better with 441.41 and up.
 ![MSI](/img/scaling.png)
 
 Use Nvidia Inspector with this profile, that i got the most from Riot(who might get the most by melody):<br/>
-[Download Inspector rakz Profile.nip](https://drive.google.com/file/d/1kS_7yzqAc2cCY3kirxix-y9xcFIOi2xK/view?usp=sharing) 
+[Download Inspector rakz Profile.nip](https://drive.google.com/file/d/1kS_7yzqAc2cCY3kirxix-y9xcFIOi2xK/view?usp=sharing)
+
+New GPU commands that i'm testing, gathered the most from Melody's<br/>
+[Download newgputesting.bat](https://drive.google.com/file/d/12SucHGLV3yvnmkFppFz0haMQUTannJaO/view?usp=sharing)
 
 ##   KMS activator
 
-[KMS_VL_ALL_AIO.cmd](files/KMS_VL_ALL_AIO.cmd) 
+[KMS_VL_ALL_AIO.cmd](files/KMS_VL_ALL_AIO.cmd)
+
+##   Melody Ultra Tweaks Packs
+
+**Listen before using his website/pack:
+
+Melody seens to be very very smart, but the nature of the tweaks COULD possibly be to advanced<br/>
+So please try to do what i always say >> Its opensource, open, take a look, see what it does, study, them use what you think is right.<br/>
+It is also recommended to not use in stripped isos(edited ones, like the Revision isos i recommend)<br/>
+But, it worked well here. It might be good, take a look. but this is OPTIONAL.<br/>
+Also, +1 for he being so helpful without asking for money and sharing content!
+
+https://sites.google.com/view/melodystweaks/
 
 ##   Useful links
 
