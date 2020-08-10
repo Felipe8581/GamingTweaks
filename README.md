@@ -1,8 +1,8 @@
 # Fr33thy is a scammer, stop giving money to a guy who claims support tech but is on his third personal main motherboard because he cant overclock properly<br/>
 https://docs.google.com/document/d/1ZDFHUmM4ts3NpLM3jwv_pcPQbPtivDNBc9__J7FqEn4/edit#<br/>
-Thats a link with evidences of how bad freethy person is. Everything he have is free and everywhere, and he didnt started or made anything.<br/>
+Thats a link with evidences of how bad freethy person is..and he didnt started or made anything for tweaking scene, just a bad old guide that people made a lot of better ones later..Even danske with idk 13 year old ? made a way more complete guide..<br/>
 I once was a member of his discord, like 90% of persons i know today, and EVERY single person say he is a retard.<br/>
-I never, ever said bad against him, i even defended him at start of everyone shitting on him. Because i think if the support tech is trading time and effort for helping people it should be a respectable job. But he lies, he steals, he talk shit..<br/>
+I never, ever said bad against him till now, i even defended him at start of everyone shitting on him. Because i think if the support tech is trading time and effort for helping people it should be a respectable job. But he lies, he steals, he talk shit, and he will fuck you for money..<br/>
 Im just writing this because recently he said im a douchbag and i copied his guide blablabla. Come on, i got better person to copy from.. like calypto,melody and revi guys.. Fr33thy is at very newbie level.. He cant even overclock without fry motherboards..<br/>
 For the "i dont care about drama, i just wanna help at my pc and im rich", listen, he will somehow fuck you. trust me.
 
