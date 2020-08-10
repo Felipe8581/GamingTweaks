@@ -15,10 +15,6 @@ This is heavily inspired by *RevisionOS* discord and Calypto's Guide, and now fr
 
 *Shortlink: [`https://git.io/JvfJ6`](https://git.io/JvfJ6)*
 
-*Read this in other languages: [English](README.md)![p](/img/US.png), [Portuguese](READMEpt.md)![p](/img/BR.png)*
-
-**Note:** Some minimal stuff is Administrator protected/Windows protected, like disabling Scheduler service for example, best and easy method to make everything work in tweaking in Safe Mode.
-
 ## Custom ISOs
 This is such a important move, will make `50%` of work done. Choose your ISO wisely. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust those ISO community creators because they have much experience.
 
@@ -54,9 +50,11 @@ HPET is highly stable high frequency clock, but it is programmed to be synced ti
 High frequency clocks like HPET may potentially allow for smoother gameplay and better sync at the expense of latency. <br/>
 
 Different Windows versions (7/8/8.1/10) all have different ways of using the TSC <br/>
-Some motherboards have no option to disable HPET, if you are advanced there is custom bios.
+Some motherboards have no option to disable HPET, if you are advanced there is custom bios.<br/>
 
-**You can optionally use my settings, but i would love you to understand and try out what i just writed.**
+**Note:** It will almost always(99%) be better to not use platformclock.
+
+**BCDEdit settings**
 
 :: Unquestionable list <br/>
 bcdedit /deletevalue useplatformclock <br/>
