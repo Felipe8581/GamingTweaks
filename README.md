@@ -1,3 +1,14 @@
+# Fr33thy is a scammer, stop giving money to a guy who claims support tech but is on his third personal main motherboard because he cant overclock properly<br/>
+https://docs.google.com/document/d/1ZDFHUmM4ts3NpLM3jwv_pcPQbPtivDNBc9__J7FqEn4/edit#<br/>
+Thats a link with evidences of how bad freethy person is. Everything he have is free and everywhere, and he didnt started or made anything.<br/>
+I once was a member of his discord, like 90% of persons i know today, and EVERY single person say he is a retard.<br/>
+I never, ever said bad against him, i even defended him at start of everyone shitting on him. Because i think if the support tech is trading time and effort for helping people it should be a respectable job. But he lies, he steals, he talk shit..<br/>
+Im just writing this because recently he said im a douchbag and i copied his guide blablabla. Come on, i got better person to copy from.. like calypto,melody and revi guys.. Fr33thy is at very newbie level.. He cant even overclock without fry motherboards..<br/>
+For the "i dont care about drama, i just wanna help at my pc and im rich", listen, he will somehow fuck you. trust me.
+
+
+
+
 # Felipe#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
 A collection of cool hidden and not so hidden tweaks <br/>
 This is heavily inspired by *RevisionOS* discord and Calypto's Guide, and now from Melody's<br/>
@@ -8,38 +19,16 @@ This is heavily inspired by *RevisionOS* discord and Calypto's Guide, and now fr
 
 **Note:** Some minimal stuff is Administrator protected/Windows protected, like disabling Scheduler service for example, best and easy method to make everything work in tweaking in Safe Mode.
 
-## Table of Contents
-
- - [**Custom ISOs**](#custom-isos)
- - [**Windows Timers**](#windows-timers)
- - [**MSI-Mode**](#msi-mode)
- - [**Affinity Policy Tool**](#affinity-policy-tool)
- - [**Process Scheduling**](#process-scheduling)
- - [**Power Options**](#power-options)
- - [**BIOS**](#bios)
- - [**NVIDIA settings**](#nvidia-settings)
- - [**Melody Ultra Tweaks Pack**](#melody-ultra-tweaks-pack)
- - [Overclocks](#overclocks)
- - [Services](#services)
- - [Device Clean Up Tool](#device-clean-up-tool)
- - [KMS activator](#kms-activator)
- - [Useful links](#useful-links)
-
 ## Custom ISOs
 This is such a important move, will make `50%` of work done. Choose your ISO wisely. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust those ISO community creators because they have much experience.
 
 [*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)
 
-[**Windows 7** by AmendOS 3.0.iso](https://mega.nz/#!AXZ1AIbA!o6NWq1OZkw8-b_ur9nguM-YlfkaDndTDge8BzTQLDaY) <br/>
+Currently using and tweaking 1709 Windows 10 <br/>
 
-[**Windows 8.1** by UnifyOS 1.5.iso](https://sites.google.com/view/meetrevision/unifyos/download) <br/>
+[Get custom 1709S Revision iso here](https://www.revi.cc/revios/download) <br/>
 
-[**Windows 10 2004** by Revision U1.0.iso](https://mega.nz/file/cLgRjZpQ#s_y9pHyaQm7-xMM8WjlkDNWKz1edUIUXGKPRHoiBBCo) <br/>
-
-**Note:** Installing them in MBR or GPT might give you different feels ingame. Experiment between those two options<br/>
-DWM (Desktop Window Manager) is prooved to be bad in every scenario, you should remove it in any win version. <br/>
-Windows 7 is by far the best for gaming, but you can wisely pick, experiment and tweak newer versions as well.<br/>
-Update: 2004 version is becaming a good one tough, and works with Melody Ultra Tweaks
+**Note:** Windows 7 is very fine and a easier way to get optimal system. But its 2020 and some games and programs are loosing compatibility, example VALORANT
 
 ## Windows Timers
 
@@ -55,67 +44,55 @@ Forces the clock to be backed by a platform source, no synthetic timers are allo
 Potentially better performance, lowers timer resolution to .488 instead of .5ms
 
 **Time Stamp Counter** (TSC) (default) (bcdedit /set useplatformclock false) <br/>
-
 TSC is reliable and will give you the lowest latency and highest fps<br/>
 
 **ACPI Power Management Timer** (PMT) (bcdedit /set useplatformclock true + HPET BIOS OFF) <br/>
-
 PMT is a highly stable high frequency clock, it doesn't sync, because it is not set to a fixed heartbeat. It is frequency based, which means that it will never delay another tick from happening. This can eliminate the chance of having stutters.
 
 **High Precision Event Timer** (HPET) (bcdedit /set useplatformclock true + HPET BIOS ON) <br/>
-
 HPET is highly stable high frequency clock, but it is programmed to be synced tightly, since it is set to tick every x amount of time, regardless of hardware configuration. HPET would be good if all cores ticked at the exact same speed and were naturally synced, but that is something that rarely ever happens which is why it is bad for so many people. HPET is a hardware based, synthetic timer, windows made it for debugging purposes and most of the time almost everytime it shouldnt be used.
 High frequency clocks like HPET may potentially allow for smoother gameplay and better sync at the expense of latency. <br/>
 
 Different Windows versions (7/8/8.1/10) all have different ways of using the TSC <br/>
 Some motherboards have no option to disable HPET, if you are advanced there is custom bios.
 
-**Install SetTimerResolutionService**
-
-This service increases the resolution of the Windows kernel timer, which will significantly lower latency.<br/>
-Observation: Is not good to use TimerResolution when you disable HPET on BIOS.<br/>
-Drop this file in C:/ folder, the file must be there to service work <br/>
-Open command promt and paste: <br/>
-
-`cd C:/` <br/>
-`SetTimerResolutionService -install` <br/>
-
-[Download SetTimerResolutionService](files/SetTimerResolutionService.exe)
-
 **You can optionally use my settings, but i would love you to understand and try out what i just writed.**
 
-`bcdedit /set allowedinmemorysettings 0` <br/>
-`bcdedit /deletevalue useplatformclock` <br/>
-`bcdedit /set useplatformtick Yes` <br/>
-`bcdedit /set tscsyncpolicy Enhanced` <br/>
-`bcdedit /set debug No` <br/>
-`bcdedit /set isolatedcontext No` <br/>
-`bcdedit /set pae ForceEnable` <br/>
-`bcdedit /set bootmenupolicy Legacy` <br/>
-`bcdedit /set usefirmwarepcisettings No` <br/>
-`bcdedit /set sos Yes` <br/>
-`bcdedit /set disabledynamictick Yes` <br/>
-`bcdedit /set disableelamdrivers Yes` <br/>
-`bcdedit /set quietboot Yes` <br/>
-`bcdedit /set x2apicpolicy Enable` <br/>
-`bcdedit /set vsmlaunchtype Off` <br/>
-`bcdedit /set usephysicaldestination No` <br/>
-`bcdedit /set ems No` <br/>
-`bcdedit /set firstmegabytepolicy UseAll` <br/>
-`bcdedit /set configaccesspolicy Default` <br/>
-`bcdedit /set linearaddress57 optin` <br/>
-`bcdedit /set noumex Yes` <br/>
-`bcdedit /set bootems No` <br/>
-`bcdedit /set graphicsmodedisabled No` <br/>
-`bcdedit /set extendedinput Yes` <br/>
-`bcdedit /set highestmode Yes` <br/>
-`bcdedit /set forcefipscrypto No` <br/>
-`bcdedit /set perfmem 0` <br/>
-`bcdedit /set configflags 0` <br/>
-`bcdedit /set uselegacyapicmode No` <br/>
-`bcdedit /set onecpu No` <br/>
-`bcdedit /set halbreakpoint No` <br/>
-`bcdedit /set forcelegacyplatform No` <br/>
+:: Unquestionable list <br/>
+bcdedit /deletevalue useplatformclock <br/>
+bcdedit /timeout 7 <br/>
+
+:: Optionals list <br/>
+bcdedit /set pae ForceEnable <br/>
+bcdedit /set bootmenupolicy Legacy <br/>
+bcdedit /set debug No <br/>
+bcdedit /set allowedinmemorysettings 0 <br/>
+bcdedit /set usefirmwarepcisettings No  <br/>
+bcdedit /set ems No <br/>
+bcdedit /set bootems No  <br/>
+bcdedit /set extendedinput Yes <br/>
+bcdedit /set forcefipscrypto No <br/>
+bcdedit /set perfmem 0  <br/>
+bcdedit /set configflags 0  <br/>
+bcdedit /set halbreakpoint No  <br/>
+bcdedit /set bootux Disabled <br/>
+bcdedit /set vm No <br/>
+bcdedit /set vsmlaunchtype Off <br/>
+bcdedit /set hypervisorlaunchtype Off <br/>
+bcdedit /set usefirmwarepcisettings no <br/>
+bcdedit /set tpmbootentropy ForceDisable <br/>
+bcdedit /set firstmegabytepolicy UseAll <br/>
+bcdedit /set allowedinmemorysettings 0x0 <br/>
+bcdedit /set isolatedcontext No <br/>
+bcdedit /set x2apicpolicy Enable <br/>
+bcdedit /set configaccesspolicy Default <br/>
+bcdedit /set MSI Default <br/>
+bcdedit /set usephysicaldestination No <br/>
+bcdedit /set usefirmwarepcisettings No <br/>
+
+:: Depends on the scenario to have best results, they are nonuniversal, Test <br/>
+bcdedit /set useplatformtick Yes <br/>
+bcdedit /set tscsyncpolicy Enhanced <br/>
 
 This is my current settings and with HPET BIOS OFF <br/>
 If you see stutterings, you need to figure out better settings.
@@ -123,13 +100,8 @@ If you see stutterings, you need to figure out better settings.
 ## MSI-Mode
 
 MSI is Message Signaled-Based Interrupts, a faster and better method that replaces Windows Line-Based interrupt mode. <br/>
-Some drivers default to using legacy pin-triggered interrupts, which are now emulated and are slower than using MSI.
-
-**For this, now im giving the file that is part of Melodys Pack and/or maybe Λdam, whatever, named machine_specific.exe** <br/>
-
-**It will tune your devices with msi on high plus making the whole system prioritys on them as homogeneous as possible** <br/>
-
-**If you want to use only msi mode utility you can set all msi, all high/normal and limit 256** <br/>
+Some drivers default to using legacy pin-triggered interrupts, which are now emulated and are slower than using MSI.<br/>
+machine_specific.exe sets everything to msi, and uncap<br/>
 
 [Download machine_specific.exe](https://drive.google.com/file/d/1UV3yRT2G9YhTwzWMDbppDGsidNrvi9BR/view?usp=sharing) <br/>
 [Download MSI-mode utility v2](http://www.mediafire.com/file/2kkkvko7e75opce/MSI_util_v2.zip/file) <br/>
@@ -137,9 +109,8 @@ Some drivers default to using legacy pin-triggered interrupts, which are now emu
 
 ## Affinity Policy Tool
 
-My new approach to this tool is what Melody and/or maybe Λdam, whatever does,<br/>
-For more homogeneous system, the devices will be tuned with SpreadAllCores<br/>
-If you use machine_specific.exe you dont need to tune Affinity anymore<br/>
+For more homogeneous system, you can turn devices in SpreadAllCores<br/>
+If you use machine_specific.exe you dont need to tune Affinity cause it already does for you<br/>
 
 [Download machine_specific.exe](https://drive.google.com/file/d/1UV3yRT2G9YhTwzWMDbppDGsidNrvi9BR/view?usp=sharing) <br/>
 [Download Affinity Policy Tool](https://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
@@ -171,17 +142,19 @@ So the one for smoothness(as he writes), would also be the best for input, on th
 
 ![w](/img/w32.png)
 
-**Try to understand the values, try to test the values, choose your desired value. 22dec is a good default**<br/>
 I will no more recommend a single value, i can barely feel difference, tests in latency barely prove anything.<br/>
-But seems like those values are the ones people like more: 42, 37, 26, 22, 16 <br/>
+But seems like those values are the ones people like more: 40, 38, 37, 22 decimals<br/>
 
-**To set Win32PrioritySeparation to 22 Decimal (16 Hex), paste this to Command Promt:**
+**To set Win32PrioritySeparation to 38 Decimal (26 Hex), paste this to Command Promt:**
 
-`reg add "hklm\system\controlset001\control\prioritycontrol" /v win32priorityseparation /t reg_dword /d 00000022 /f`
+`reg add "hklm\system\controlset001\control\prioritycontrol" /v win32priorityseparation /t reg_dword /d 00000038 /f`
 
 [*Read more about Process Scheduling and Win32PrioritySeparation*](http://recoverymonkey.org/2007/08/17/processor-scheduling-and-quanta-in-windows-and-a-bit-about-unixlinux/)
 
 ##  Power Options
+
+If you are in windows 10 just tweak your BIOS disabling c-states and power savings so you can disable Power service in windows with:<br/>
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Power" /v "Start" /t REG_DWORD /d 4 /f
 
 What it does: Disable wake timers, USB Suspend setting, Controls CPU Idle, Disable Power Savings, Unpark cores and more. <br/>
 
@@ -209,7 +182,8 @@ This is a usefull utility to remove detached/ghost devices, very safe to do.
 
 ##   Services
 
-You should learn what services to disable, use regedit/serviwin, remove the necessary dependencys
+You should learn what services to disable, use regedit/serviwin, remove the necessary dependencys<br/>
+If you are on decent windows like Revision isos, you really dont need that extra 1%, having fewer threads/processes is not big gains.
 
 ##   BIOS
 
@@ -267,7 +241,7 @@ Execute Disable Bit Disabled<br/>
 Intel Virtualization Technology Disabled<br/>
 Disable USB xHCI<br/>
 Disable USB EHCI Hand-Off<br/>
-Disable Legacy USB(after installing OS, cause you need this i guess for MBR install)
+Disable Legacy USB (after installing OS, cause you need this i guess for MBR install)
 
 ##   Overclocks
 
@@ -278,42 +252,35 @@ All tools necessary: <br/>
 ##   NVIDIA settings
 
 **Uninstall current driver with DisplayDriverUninstaller(DDU)** <br/>
-**Use NVSlimmer and download and install a clean nvidia driver** <br/>
-Good options list: 391.35 / 441.41 / 442.74<br/>
-The Inspector profile SHOULD be better with 441.41 and up.
+**Use nvcleaninstall and download and install a clean nvidia driver** <br/>
+I recommend using 441.41 driver.<br/>
 
-Here is a list of usefull and advanced nvidiaInspector profiles: <br/>
-FPS focused [Dato_Profile.nip](https://drive.google.com/file/d/1ZsDTTv2JnyEx8KBUxoicTbmJ-SnsEREr/view?usp=sharing) <br/>
-Gaming feel focused [Riot_Profile.nip](https://drive.google.com/file/d/1m6Sk99b2xkpAuC8Kfmj4NLOVVNTg1V-r/view?usp=sharing) <br/>
-Latency focused (might lower fps) [Melody_Profile.nip](https://drive.google.com/file/d/1YIEFnNA0mGQtsJFJur0dUROFXGtSRrwc/view?usp=sharing) <br/>
-FPS/Gaming feel focused [FelipeCopyPastaEdited_Profile.nip](soon)
+https://www.techpowerup.com/download/techpowerup-nvcleanstall/<br/>
 
-New GPU commands that i'm testing, gathered the most from Melody's and/or maybe Λdam, whatever<br/>
-[Download newgputesting.bat](https://drive.google.com/file/d/12SucHGLV3yvnmkFppFz0haMQUTannJaO/view?usp=sharing)
+Now go to nvidia inspector github page and download it<br/>
+https://github.com/Orbmu2k/nvidiaProfileInspector/releases/tag/2.3.0.12<br/>
+
+Now you can configure settings yourself but i have done it for me like this:<br/>
+https://cdn.discordapp.com/attachments/735530835733643286/742466173475487775/felipeprofile.nip
 
 ##   KMS activator
 
-You can buy a cheap key in ebay tough, which is legal, who is selling those cheap keys are MSDN Admins <br/>
-[KMS_VL_ALL_AIO.cmd](files/KMS_VL_ALL_AIO.cmd)
+KMS VL ALL is kinda legal?! But i cant share it here go to his github official page, it activates windows without doing anything just scripts<br/>
+https://github.com/kkkgo/KMS_VL_ALL<br/>
 
 ##   Melody Ultra Tweaks Packs
 
-**Listen before using his website/pack:**
-
-Melody seens to be very very smart, but the nature of the tweaks COULD possibly be too advanced<br/>
-So please try to do this>> Its opensource, open, **take a look, see what it does**, study, them use what you think is right.<br/>
-It is also recommended to not use in stripped isos(edited ones, like the Revision isos for example but 2004 version is fine)<br/>
-But, it worked well here. It might be good, take a look. but this is OPTIONAL.<br/>
-Also, +1 for he being so helpful without asking for money and sharing content!
-
 https://sites.google.com/view/melodystweaks/
+
+I recently have edited the melody pack because i have different opinions and choices, and added some more info.<br/>
+If you want take a look in #felipe at Revision discord.<br/>
+Reason is melody makes everything, at all costs for input. Sometimes sacrificing too much of performance for it, so it is not worthy, i balanced this.<br/>
 
 ##   Useful links
 
 **PC/Windows Stuff** </br>
 [*RevisionOS discord*](https://discord.gg/CCxWegZ) </br>
 [*Calypto discord*](https://discord.gg/PfsdHaP) </br>
-[*Fr33thy discord*](https://discord.gg/pTc37y7) </br>
 [*n1kobg discord*](https://discord.gg/8KSHTZ3) </br>
 [*Melody Pack Discord*](https://discord.gg/7n5EGQ) </br>
 [*The-Eye.eu*](https://the-eye.eu/public/MSDN/) </br>
