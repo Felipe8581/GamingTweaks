@@ -58,10 +58,13 @@ Some motherboards have no option to disable HPET, if you are advanced there is G
 
 MSI is Message Signaled-Based Interrupts, a faster and better method that replaces Windows Line-Based interrupt mode<br/>
 Some drivers default to using legacy pin-triggered interrupts, which are now emulated and are slower than using MSI<br/>
-[*Read more Windows Line Based vs MSI Based.*](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
+
+Interrupt-Affinity Policy can set affinity for a driver’s interrupts
 
 To change msi and affinitys settings, Bored made a wonderfull and complete tool.. check out his file
 https://github.com/BoringBoredom/PCIutil/releases
+
+[*Read more Windows Line Based vs MSI Based.*](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 
 ##  Process Scheduling
 
