@@ -14,8 +14,8 @@ This is heavily inspired by *Revision* and Calypto's, Danske's and Melody's...<b
 
 https://drive.google.com/file/d/1dgr77JDEHPi3AoMDV9CqxewDPOLqay2N/view?usp=sharing(https://drive.google.com/file/d/1dgr77JDEHPi3AoMDV9CqxewDPOLqay2N/view?usp=sharing)
 
-It is a collection of everything, made for every gaming pc or windows version
-Please join revision discord if you have any doubt about this.. You can talk with me on #collab-feedback
+It is a collection of everything, made for every gaming pc or windows version<br/>
+Please join revision discord if you have any doubt about this.. You can talk with me on #collab-feedback<br/>
 And always have the best version on #felipe
 
 ![post](/img/post.png)
