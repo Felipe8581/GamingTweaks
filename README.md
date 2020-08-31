@@ -8,15 +8,14 @@ For the "i dont care about drama, i just wanna help at my pc and im rich", liste
 
 # Felipe.#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
 A collection of cool hidden and not so hidden tweaks <br/>
-This is heavily inspired by *Revision* and Calypto's, Danske's and Melody's...<br/>
+This is heavily inspired by Revision and Calypto's, Danske's and Melody's...<br/>
 
 ## This is my FREE tweaking utility tool
 
 https://drive.google.com/file/d/1dgr77JDEHPi3AoMDV9CqxewDPOLqay2N/view?usp=sharing(https://drive.google.com/file/d/1dgr77JDEHPi3AoMDV9CqxewDPOLqay2N/view?usp=sharing)
 
 It is a collection of everything, made for every gaming pc or windows version<br/>
-Please join revision discord if you have any doubt about this.. You can talk with me on #collab-feedback<br/>
-And always have the best version on #felipe
+Please join revision discord if you have any doubt about this.. You can talk with me on #collab-feedback or #felipe<br/>
 
 ![post](/img/post.png)
 
@@ -53,9 +52,7 @@ HPET is a hardware based, synthetic timer, windows made it for debugging purpose
 High frequency clocks like HPET may potentially allow for smoother gameplay and better sync at the expense of latency<br/>
 
 Different Windows versions (7/8/8.1/10) all have different ways of using the TSC <br/>
-Some motherboards have no option to disable HPET, if you are advanced there is custom bios<br/>
-
-**Note:** It will almost always(99%) be better to not use platformclock
+Some motherboards have no option to disable HPET, if you are advanced there is GRUB or custom bios<br/>
 
 ## MSI-Mode and Affinitys
 
@@ -93,15 +90,15 @@ Win32PrioritySeparation value is the amount of time the Windows process schedule
 
 ##  Power Options
 
-If you are in windows 8 or 10 just tweak your BIOS disabling c-states and power savings so you can disable Power service in windows with:<br/>
+If you are not in Windows 7, just tweak your bios disabling c-states and power savings so you can disable power service:<br/>
 REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Power" /v "Start" /t REG_DWORD /d "4" /f
 
-What it does: Disable wake timers, USB Suspend setting, Controls CPU Idle, Disable Power Savings, Unpark cores and more. <br/>
+or use a custom powerplan:
 
+What it does: Disable wake timers, USB Suspend setting, Controls CPU Idle, Disable Power Savings, Unpark cores and more. <br/>
 Drop the file in C:/, Open command promt and type: <br/>
 powercfg -import C:/RevisionPowerPlanV2.8.pow <br/>
 Open Power Options and select RevisionPowerPlanV2.8 <br/>
-
 [Download RevisionPowerPlanV2.8.pow](https://drive.google.com/file/d/1OvMwK7XD_e93hkGoyuQV-WuHsylvZgUf/view?usp=sharing)
 
 Enable idle: (less responsive, lowers temperature)<br/>
@@ -110,7 +107,6 @@ powercfg -setactive scheme_current<br/>
 Disable idle: (more responsive, raises temperature)<br/>
 powercfg -setacvalueindex scheme_current sub_processor 5d76a2ca-e8c0-402f-a133-2158492d58ad 1<br/>
 powercfg -setactive scheme_current
-
 
 ###  Device Clean Up Tool
 
@@ -123,8 +119,8 @@ This is a usefull utility to remove detached/ghost devices, very safe to do.
 ##   Services
 
 You should learn what services to disable, use regedit/serviwin, remove the necessary dependencys<br/>
-DONT disable what doesnt have cpu cycles, install processexplorer or processhacker and you will see there is no point on disabling many services<br/>
-If you are on decent windows like Revision isos, you really dont need that extra 1%, having fewer threads/processes is not big gains.
+Dont disable what doesnt have cpu cycles, install processexplorer or processhacker and you will see there is no point<br/>
+If you are on decent windows like Revision isos, you really dont need that extra disabling...
 
 ##   BIOS
 
