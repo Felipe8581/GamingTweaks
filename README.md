@@ -64,7 +64,7 @@ Some drivers default to using legacy pin-triggered interrupts, which are now emu
 [*Read more Windows Line Based vs MSI Based.*](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 
 To change msi and affinitys settings, Bored made a wonderfull and complete tool.. check out his file
-https://github.com/BoringBoredom/PCIutil/releases(https://github.com/BoringBoredom/PCIutil/releases)
+https://github.com/BoringBoredom/PCIutil/releases
 
 ##  Process Scheduling
 
@@ -175,7 +175,7 @@ Intel Virtualization Technology Disabled<br/>
 ##   Overclocks
 
 All tools necessary: <br/>
-[Download OCCT 5.4.2](https://www.ocbase.com/download.php) <br/>
+[Download OCCT](https://www.ocbase.com/download.php) <br/>
 [Download MEMTest64](https://drive.google.com/file/d/12ga7LsEogbp8yQIUhPKRHTmxNh8fFS5s/view?usp=sharing)
 
 ##   NVIDIA settings
