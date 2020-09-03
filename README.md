@@ -16,10 +16,9 @@ https://drive.google.com/file/d/1B2slWk3C0b_WDpDAWAm3W1fvUStRH7lD/view?usp=shari
 ![post](/img/folder.png)
 
 ## Custom ISOs
-This is such a important move, will make `50%` of work done. Choose your ISO wisely. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust those ISO community creators because they have much experience
+This is such a important move, will make `50%` of work done. Choose your ISO wisely. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust that specific ISO community because they have much experience
 
 [*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)
-
 [Get your Revision windows here](https://www.revi.cc/revios/download) <br/>
 
 ## Windows Timers
