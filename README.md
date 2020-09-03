@@ -11,14 +11,11 @@ For the "i dont care about drama, i just wanna help at my pc and im rich", liste
 A collection of cool hidden and not so hidden tweaks <br/>
 This is heavily inspired by Revision and Calypto's, Danske's and Melody's...<br/>
 
-## This is my FREE tweaking utility tool
+## This is my Usefull Folders
 
-https://drive.google.com/file/d/1dgr77JDEHPi3AoMDV9CqxewDPOLqay2N/view?usp=sharing(https://drive.google.com/file/d/1dgr77JDEHPi3AoMDV9CqxewDPOLqay2N/view?usp=sharing)
+https://drive.google.com/file/d/1B2slWk3C0b_WDpDAWAm3W1fvUStRH7lD/view?usp=sharing
 
-It is a collection of everything, made for every gaming pc or windows version<br/>
-Please join revision discord if you have any doubt about this.. You can talk with me on #collab-feedback or #felipe<br/>
-
-![post](/img/post.png)
+![post](/img/folder.png)
 
 ## Custom ISOs
 This is such a important move, will make `50%` of work done. Choose your ISO wisely. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust those ISO community creators because they have much experience
