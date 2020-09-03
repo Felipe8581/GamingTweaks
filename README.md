@@ -1,7 +1,9 @@
 # Fr33thy is a scammer, a lier<br/>
 https://docs.google.com/document/d/1ZDFHUmM4ts3NpLM3jwv_pcPQbPtivDNBc9__J7FqEn4/edit#<br/>
-Thats a link with evidences of how bad he is..
-I never, ever said bad against him till now, i even defended him at start of everyone shitting on him. Because i think if the support tech is trading time and effort for helping people it should be a respectable job. But he lies, he steals, he talk shit, and he will fuck you for money..<br/>
+Thats a link with evidences of how bad he is..<br/>
+I never, ever said bad against him till now, i even defended him at start of everyone shitting on him.<br/>
+Because i think if the support tech is trading time and effort for helping people it should be a respectable job.<br/>
+But he lies, he steals, he talk shit, and he will fuck you for money..<br/>
 
 For the "i dont care about drama, i just wanna help at my pc and im rich", listen, he will somehow fuck you. trust me.
 
