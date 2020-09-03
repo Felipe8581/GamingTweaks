@@ -59,8 +59,8 @@ Some drivers default to using legacy pin-triggered interrupts, which are now emu
 
 Interrupt-Affinity Policy can set affinity for a driver’s interrupts
 
-To change msi and affinitys settings, Bored made a wonderfull and complete tool.. check out his file
-https://github.com/BoringBoredom/PCIutil/releases
+To change msi and affinitys settings, you can use the files inside my folder<br/>
+named "MSI and AFFINITY"
 
 [*Read more Windows Line Based vs MSI Based.*](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 
@@ -127,19 +127,14 @@ If you are on decent windows like Revision isos, you really dont need that extra
 
 This is very important for your system, make sure to check every setting <br/>
 
-**Must do:**
-
-Disable C-State (CPU Enhanced Halt (C1E), C3, C6, C7, C8)<br/>
-Disable Intel (R) Speed Shift Technology<br/> or CPU Enhanced Intel Speedstep Technology (EIST) Function<br/>
+**Disable C-State (CPU Enhanced Halt (C1E), C3, C6, C7, C8)**<br/>
+**Disable Intel (R) Speed Shift Technology<br/> or CPU Enhanced Intel Speedstep Technology (EIST) Function**<br/>
+**Enable XMP**<br/>
 Disable Active State Power Management ASPM/ALPM settings<br/>
 Disable OnBoard Video, Audio or Lan Controller if you have a PCI/USB one that is or will be installed.<br/>
 Disable Platform Power Management<br/>
 Disable any onboard LED traces/lights<br/>
 Disable not used features<br/>
-Enable XMP
-
-**Remove all protections and power savings, enable max performance/power** <br/>
-
 Internal PLL Overvoltage Disabled<br/>
 Spread Sprectum Disabled<br/>
 BCLK Recovery Disabled<br/>
@@ -168,21 +163,6 @@ Intel Adaptive Thermal Monitor Disabled<br/>
 Hyper-threading Disabled<br/>
 Execute Disable Bit Disabled<br/>
 Intel Virtualization Technology Disabled<br/>
-
-##   Overclocks
-
-All tools necessary: <br/>
-[Download OCCT](https://www.ocbase.com/download.php) <br/>
-[Download MEMTest64](https://drive.google.com/file/d/12ga7LsEogbp8yQIUhPKRHTmxNh8fFS5s/view?usp=sharing)
-
-##   NVIDIA settings
-
-https://www.techpowerup.com/download/techpowerup-nvcleanstall/<br/>
-
-##   KMS activator
-
-This is a activator that is just a text script and doesnt install anything in your machine... very safe.<br/>
-https://github.com/kkkgo/KMS_VL_ALL<br/>
 
 ##   Useful links
 
