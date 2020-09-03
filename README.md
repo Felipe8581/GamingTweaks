@@ -9,7 +9,7 @@ But he lies, he steals, he talk shit, and he will fuck you for money..<br/>
 A collection of cool hidden and not so hidden tweaks <br/>
 This is heavily inspired by Revision and Calypto's, Danske's and Melody's...<br/>
 
-## This is my Usefull Folders
+## This is my Folders
 
 https://drive.google.com/file/d/1B2slWk3C0b_WDpDAWAm3W1fvUStRH7lD/view?usp=sharing
 
