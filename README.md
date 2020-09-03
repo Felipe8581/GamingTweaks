@@ -1,11 +1,9 @@
 # Fr33thy is a scammer, a lier<br/>
 https://docs.google.com/document/d/1ZDFHUmM4ts3NpLM3jwv_pcPQbPtivDNBc9__J7FqEn4/edit#<br/>
 Thats a link with evidences of how bad he is..<br/>
-I never, ever said bad against him till now, i even defended him at start of everyone shitting on him.<br/>
-Because i think if the support tech is trading time and effort for helping people it should be a respectable job.<br/>
+I never, ever said bad against him till now, I even defended him when everyone was shitting on him.<br/>
+Because I think if the support tech is trading time and effort for helping people it should be a respectable job.<br/>
 But he lies, he steals, he talk shit, and he will fuck you for money..<br/>
-
-For the "i dont care about drama, i just wanna help at my pc and im rich", listen, he will somehow fuck you. trust me.
 
 # Felipe.#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
 A collection of cool hidden and not so hidden tweaks <br/>
@@ -173,7 +171,6 @@ Intel Virtualization Technology Disabled<br/>
 [*Melody Discord*](https://discord.gg/7n5EGQ) </br>
 
 **Guides** </br>
-
 [*Danske’s Windows Tweaking Guide*](https://docs.google.com/document/d/18uPEXJC5LSto8x9X_GteSI58sfQLCfamDG1HNHJWrQU/edit) </br>
 [*Calypto Guide*](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit?usp=sharing) </br>
 [*Melody Ultra Tweaks Pack*](https://sites.google.com/view/melodystweaks/) </br>
