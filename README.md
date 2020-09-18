@@ -71,7 +71,9 @@ potential problems, if you have any. Latencymon nor xperf can't tell everything.
 This text was written by Danske
 
 ## What is Revision Custom ISO Windows
-Choose your ISO wisely. This is such a important move, will make `50%` of work done. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust that specific ISO community because they have much experience
+Choose your ISO wisely. This is such a important move, will make `50%` of work done. Removing/stripping too much<br/>
+cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust that specific<br/>
+ISO community because they have much experience<br/>
 
 [*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)<br/>
 [Get your Revision windows here](https://www.revi.cc/revios/download) <br/>
