@@ -44,20 +44,20 @@ b) there's something else going on that's not related to DPCs and ISRs (listed b
 - CR2 instead of CR1<br/>
 - And much more<br/>
 
-In my opinion latencymon shouldn't be used at all, especially by the tweaking communities. Maybe by the ones who have an IQ<br/>
-of over 30 and know how to use it. Not by the people who got pointed in the wrong direction. You may ask why. Well, because<br/>
+In my opinion latencymon shouldn't be used at all, especially by the tweaking communities. Maybe by the ones who have an IQ <br/>
+of over 30 and know how to use it. Not by the people who got pointed in the wrong direction. You may ask why. Well, because <br/>
 latencymon's own driver (rspLLL.sys / rspLLL64.sys) that's used to measure hard page faults, DPCs and ISRs, creates <br/>
-a shit ton amount of DPCs. Like legitimately 1000 times more DPCs than for example ndis.sys (which is responsible for network)<br/>
+a shit ton amount of DPCs. Like legitimately 1000 times more DPCs than for example ndis.sys (which is responsible for network) <br/>
 in my case. And, what do people in tweaking communities do when using latencymon? They look at the average dpc latency. <br/>
-Also, the tool is really inconsistent, which bring us to the glorious tool that is superior to latencymon: xperf. It's by<br/>
-microsoft itself and is included with the Windows Performance Toolkit. The usage of xperf is really simple, and is done using<br/>
+Also, the tool is really inconsistent, which bring us to the glorious tool that is superior to latencymon: xperf. It's by <br/>
+microsoft itself and is included with the Windows Performance Toolkit. The usage of xperf is really simple, and is done using <br/>
 command prompt. A simple guide written by mbk1969 shows how to use xperf to trace DPCs and ISRs <br/>
 (https://forums.guru3d.com/threads/simple-way-to-trace-dpcs-and-isrs.423884/). <br/>
 Also the report that xperf creates is a lot more detailed than the one which latencymon creates, which makes xperf the superior<br/>
-tool to analyze DPCs and ISRs and the potential problems caused by them.<br/>
+tool to analyze DPCs and ISRs and the potential problems caused by them. <br/>
 
 Conclusion: Take a look at your current system configuration and try to comprehend what might be causing potential problems, <br/>
-if you have any. Latencymon nor xperf can't tell everything. Thank you.<br/>
+if you have any. Latencymon nor xperf can't tell everything. Thank you. <br/>
 
 This text was written by Danske
 
