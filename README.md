@@ -13,6 +13,8 @@ your computer to suddenly start hitting higher fps unless you did shit before <b
 This is not realistic and that's why it's called optimization, not a miracle<br/>
 "If you want more FPS, buy a new one PC with better hardware."<br/>
 
+This text was written by n1ko?!
+
 A common misunderstanding - LatencyMon and how the scores "don't matter"<br/>
 
 Latencymon is a commonly used tool by people who are interested in measuring & <br/>
@@ -35,6 +37,38 @@ ISRs (interrupts) each specific driver creates, many people will still continue 
 have an unenjoyable gaming experience, and they can't figure out why. <br/>
 Because a) they don't even fucking check the drivers tab in latencymon <br/>
 b) there's something else going on that's not related to DPCs and ISRs (listed below).<br/>
+
+- Bad SSD (eg. Kingston A400)<br/>
+- Bad RAM w/o tightened timings<br/>
+- Bad / no cooling (eg. no RAM / VRM cooling)<br/>
+- Too low voltage<br/>
+- Untweaked UEFI aka BIOS<br/>
+- No proper knowledge about hardware dependant settings (eg. Shader Cache & Large System Cache)<br/>
+- Bad PSU / power / bad or no grounding<br/>
+- Bad cables (eg. monitor & ethernet cable)<br/>
+- Bad network (eg. incorrectly configured network settings, bad modem/router, bad isp & bad routing)<br/>
+- Interference caused by modem / router, phone, etc.<br/>
+- CR2 instead of CR1<br/>
+- And much more<br/>
+
+In my opinion latencymon shouldn't be used at all, especially by the tweaking communities. Maybe by<br/>
+the ones who have an IQ of over 30 and know how to use it. Not by the people who got pointed in the<br/>
+wrong direction. You may ask why. Well, because latencymon's own driver (rspLLL.sys / rspLLL64.sys) <br/>
+that's used to measure hard page faults, DPCs and ISRs, creates a shit ton amount of DPCs. Like <br/>
+legitimately 1000 times more DPCs than for example ndis.sys (which is responsible for network) in my case.<br/>
+And, what do people in tweaking communities do when using latencymon? They look at the average dpc latency. <br/>
+Also, the tool is really inconsistent, which bring us to the glorious tool that is superior to <br/>
+latencymon: xperf. It's by microsoft itself and is included with the Windows Performance Toolkit. <br/>
+The usage of xperf is really simple, and is done using command prompt. A simple guide written <br/>
+by mbk1969 shows how to use xperf to trace DPCs and ISRs <br/>
+(https://forums.guru3d.com/threads/simple-way-to-trace-dpcs-and-isrs.423884/). <br/>
+Also the report that xperf creates is a lot more detailed than the one which latencymon creates,<br/>
+which makes xperf the superior tool to analyze DPCs and ISRs and the potential problems caused by them.<br/>
+
+Conclusion: Take a look at your current system configuration and try to comprehend what might be causing <br/>
+potential problems, if you have any. Latencymon nor xperf can't tell everything. Thank you.<br/>
+
+This text was written by Danske
 
 ## What is Revision Custom ISO Windows
 Choose your ISO wisely. This is such a important move, will make `50%` of work done. Removing/stripping too much cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust that specific ISO community because they have much experience
