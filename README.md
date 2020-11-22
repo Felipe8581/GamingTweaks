@@ -12,7 +12,7 @@ And its binded to your motherboard for having acess<br/>
 I am total transparent and i wont do miracles on your pc, but will definetly help you out<br/>
 You are totally capable on learning out by urself and for free in the discords I recommend below<br/>
 
-Here are the screenshots of the program:
+Here are the screenshots of the program:<br/>
 ![1](https://media.discordapp.net/attachments/776738372990664734/779780267987566622/unknown.png) <br/>
 ![2](https://media.discordapp.net/attachments/776738372990664734/779576435349913600/unknown.png) <br/>
 Im adding more content, time-to-time<br/>
