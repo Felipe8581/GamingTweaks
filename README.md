@@ -4,18 +4,17 @@ He lies, he steals, he talk shit, and he will fuck you for money.. and even usua
 
 # Feliperakz#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
 
-After much time, I decided to make C# program to help people tweak, more like a utility but with also few good automatizations.<br/>
-The program is paid, lifetime and cheap for 17$. It get daily updated with new things being added<br/>
-And its binded to your motherboard for having acess<br/>
-I am total transparent and i wont do miracles on your pc, but will definetly help you out<br/>
+After much time, I decided to make programs to help people tweak, more like a utility with automatizations.<br/>
+The program is paid and lifetime for 17$. It get daily updated with new things<br/>
+It is binded to your motherboard for having acess<br/>
+I am total transparent and i wont do miracles on your pc, but will get the most of your hardware<br/>
 You are totally capable on learning out by urself and for free in the discords I recommend below<br/>
 
 Here are the screenshots of the program:<br/>
 ![1](https://media.discordapp.net/attachments/776738372990664734/779780267987566622/unknown.png) <br/>
 ![2](https://media.discordapp.net/attachments/776738372990664734/779576435349913600/unknown.png) <br/>
-Im adding more content, time-to-time<br/>
+Im adding more content, time-to-time..<br/>
 Discord for purchase or join the community: https://discord.gg/3NWnXjyPhx<br/>
-
 
 ## What is Revision Custom ISO Windows
 Choose your ISO wisely. This is such a important move, will make `50%` of work done. Removing/stripping too much<br/>
