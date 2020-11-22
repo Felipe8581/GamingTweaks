@@ -1,8 +1,8 @@
-# Take care when paying "tweakers", Look how Fr33thy scams:<br/>
+## Take care when paying "tweakers", Look how Fr33thy scams:<br/>
 https://docs.google.com/document/d/1ZDFHUmM4ts3NpLM3jwv_pcPQbPtivDNBc9__J7FqEn4/edit#<br/>
 He lies, he steals, he talk shit, and he will fuck you for money.. and even usually burn hardwares<br/>
 
-# Feliperakz#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
+## Feliperakz#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
 
 After much time, I decided to make programs to help people tweak, more like a utility with automatizations.<br/>
 The program is paid and lifetime for 17$. It get daily updated with new things<br/>
@@ -32,7 +32,7 @@ ISO community because they have much experience<br/>
 
 Obviously disable every single power saving feature and try go for max performance/stability<br/>
 
-##   Useful links
+## Useful links
 
 **Discords** </br>
 [*RevisionOS discord*](https://discord.gg/CCxWegZ) </br>
