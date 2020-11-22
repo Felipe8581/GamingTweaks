@@ -13,8 +13,8 @@ I am total transparent and i wont do miracles on your pc, but will definetly hel
 You are totally capable on learning out by urself and for free in the discords I recommend below<br/>
 
 Here are the screenshots of the program:
-[1](https://media.discordapp.net/attachments/776738372990664734/779780267987566622/unknown.png)<br/>
-https://media.discordapp.net/attachments/776738372990664734/779576435349913600/unknown.png<br/>
+![1](https://media.discordapp.net/attachments/776738372990664734/779780267987566622/unknown.png) <br/>
+![2](https://media.discordapp.net/attachments/776738372990664734/779576435349913600/unknown.png) <br/>
 Im adding more content, time-to-time<br/>
 Discord for purchase or join the community: https://discord.gg/3NWnXjyPhx<br/>
 
