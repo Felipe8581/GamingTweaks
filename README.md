@@ -1,8 +1,8 @@
-# Fr33thy scams<br/>
+# Take care when paying "tweakers", Fr33thy scams for example:<br/>
 https://docs.google.com/document/d/1ZDFHUmM4ts3NpLM3jwv_pcPQbPtivDNBc9__J7FqEn4/edit#<br/>
 I even defended him when everyone was shitting on him. Because I think if the support tech is trading time and 
 effort for helping people it should be a respectable job.<br/>
-But he lies, he steals, he talk shit, and he will fuck you for money..<br/>
+But he lies, he steals, he talk shit, and he will fuck you for money.. and even usually burn hardwares<br/>
 
 # Feliperakz#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
 
@@ -13,12 +13,11 @@ I am total transparent and i wont do miracles on your pc, but will definetly hel
 You are totally capable on learning out by urself and for free in the discords I recommend below<br/>
 
 Here are the screenshots of the program:
-https://media.discordapp.net/attachments/776738372990664734/779780267987566622/unknown.png
-https://media.discordapp.net/attachments/776738372990664734/779576435349913600/unknown.png
-Im adding more content, time-to-time
-Discord for purchase or join the community: https://discord.gg/3NWnXjyPhx
+[1](https://media.discordapp.net/attachments/776738372990664734/779780267987566622/unknown.png)<br/>
+https://media.discordapp.net/attachments/776738372990664734/779576435349913600/unknown.png<br/>
+Im adding more content, time-to-time<br/>
+Discord for purchase or join the community: https://discord.gg/3NWnXjyPhx<br/>
 
-This text was written by Danske
 
 ## What is Revision Custom ISO Windows
 Choose your ISO wisely. This is such a important move, will make `50%` of work done. Removing/stripping too much<br/>
