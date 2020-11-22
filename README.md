@@ -1,4 +1,4 @@
-# Take care when paying "tweakers", Fr33thy scams for example:<br/>
+# Take care when paying "tweakers", Look how Fr33thy scams:<br/>
 https://docs.google.com/document/d/1ZDFHUmM4ts3NpLM3jwv_pcPQbPtivDNBc9__J7FqEn4/edit#<br/>
 I even defended him when everyone was shitting on him. Because I think if the support tech is trading time and 
 effort for helping people it should be a respectable job.<br/>
