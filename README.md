@@ -1,8 +1,6 @@
 # Take care when paying "tweakers", Look how Fr33thy scams:<br/>
 https://docs.google.com/document/d/1ZDFHUmM4ts3NpLM3jwv_pcPQbPtivDNBc9__J7FqEn4/edit#<br/>
-I even defended him when everyone was shitting on him. Because I think if the support tech is trading time and 
-effort for helping people it should be a respectable job.<br/>
-But he lies, he steals, he talk shit, and he will fuck you for money.. and even usually burn hardwares<br/>
+He lies, he steals, he talk shit, and he will fuck you for money.. and even usually burn hardwares<br/>
 
 # Feliperakz#8581 at discord [![GamingTweaks](https://img.shields.io/badge/support-me-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=53DKRDTP43ZAG&source=url)
 
@@ -37,11 +35,9 @@ Obviously disable every single power saving feature and try go for max performan
 
 ##   Useful links
 
-**PC/Windows Stuff** </br>
+**Discords** </br>
 [*RevisionOS discord*](https://discord.gg/CCxWegZ) </br>
 [*LAG discord*](https://discord.gg/PfsdHaP) </br>
-[*n1kobg discord*](https://discord.gg/8KSHTZ3) </br>
-[*Melody Discord*](https://discord.gg/7n5EGQ) </br>
 
 **Guides** </br>
 [*Danske’s Windows Tweaking Guide*](https://docs.google.com/document/d/18uPEXJC5LSto8x9X_GteSI58sfQLCfamDG1HNHJWrQU/edit) </br>
@@ -50,7 +46,3 @@ Obviously disable every single power saving feature and try go for max performan
 [*n1kobg.blogspot.com*](http://n1kobg.blogspot.com/) </br>
 [*Bunny Guide*](https://sites.google.com/view/winshit/overview)
 
-**Monitor Stuff** </br>
-[*TFT Central Monitor Reviews*](https://www.tftcentral.co.uk/) </br>
-[*RTings Monitor Reviews*](https://www.rtings.com/monitor) </br>
-[*Blurbusters Monitor Stuff*](https://blurbusters.com/)
