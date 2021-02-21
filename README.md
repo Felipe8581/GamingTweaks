@@ -9,14 +9,6 @@ Preview: https://streamable.com/mdkwvs
 
 Discord for purchase or join the community: https://discord.gg/F6WBqRHqgs<br/>
 
-## What is Revision Custom ISO Windows
-Choose your ISO wisely. This is such a important move, will make `50%` of work done. Removing/stripping too much<br/>
-cause more issues and incompatibility and doesnt help with performance or speed, i blindly trust that specific<br/>
-ISO community because they have much experience<br/>
-
-[*Learn more about them in Revision discord*](https://discordapp.com/invite/CCxWegZ)<br/>
-[Get your Revision windows here](https://www.revi.cc/revios/download) <br/>
-
 ## Things that you shouldnt forget to do in your BIOS
 
 **Disable C-State (CPU Enhanced Halt (C1E), C3, C6, C7, C8)**<br/>
