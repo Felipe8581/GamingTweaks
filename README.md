@@ -6,6 +6,7 @@ The program is designed to speed up and automate tweaking and make it easy. Ever
 The app will help with network performance, frametimes, latency and add quality of life to tweaking and overclocking.
 
 Preview: https://streamable.com/mdkwvs
+![image](https://cdn.discordapp.com/attachments/773065487990784021/815840012969050132/unknown.png)
 
 Discord for purchase or join the community: https://discord.gg/F6WBqRHqgs<br/>
 
