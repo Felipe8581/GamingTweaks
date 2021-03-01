@@ -15,16 +15,6 @@ Discord for purchase or join the community: https://discord.gg/F6WBqRHqgs<br/>
 **Disable C-State (CPU Enhanced Halt (C1E), C3, C6, C7, C8)**<br/>
 **Disable Intel (R) Speed Shift Technology<br/> or CPU Enhanced Intel Speedstep Technology (EIST) Function**<br/>
 **Enable XMP**<br/>
-
 Obviously disable every single power saving feature and try go for max performance/stability<br/>
 
-## Useful links
-
-**Discords** </br>
-[*My discord*](https://discord.gg/F6WBqRHqgs) </br>
-[*RevisionOS discord*](https://discord.gg/CCxWegZ) </br>
-[*LAG discord*](https://discord.gg/PfsdHaP) </br>
-
-**Guides** </br>
-[*Calypto Guide*](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit?usp=sharing) </br>
 
